@@ -27,7 +27,7 @@ p{
 }
 
 main{
-    width: 400px;
+    max-width: 600px;
 }
 
 aside{
