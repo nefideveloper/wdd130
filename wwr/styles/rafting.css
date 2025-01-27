@@ -1,0 +1,36 @@
+:root{
+    color-scheme: 022B3A;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+header img {
+    width: 150px;
+    height: 150px;
+}
+
+.hero{
+    position: relative;
+
+}
+
+.hero image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    position: absolute;
+    color: greenyellow;
+}
+
+article{
+    background-color: bisque;
+}
+image article{
+    float: right;
+}
