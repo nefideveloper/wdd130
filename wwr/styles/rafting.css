@@ -1,36 +1,42 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
 :root{
     color-scheme: 022B3A;
 }
 
+/*Start nav*/
 
 nav a {
     text-decoration: none;
     color: black;
 }
+
+/*End of nav*/
+
+/*Start header*/
 header img {
     width: 150px;
     height: 150px;
 }
+/*End of header*/
 
 .hero{
     position: relative;
-
 }
-
-.hero image{
+.hero img{
     display: block;
     width: 100%;
     height: auto;
 }
 
-h1{
-    position: absolute;
-    color: greenyellow;
-}
 
-article{
-    background-color: bisque;
+
+article img{
+    float:right;
 }
-image article{
-    float: right;
-}
+/*Class selector*/
+
+
