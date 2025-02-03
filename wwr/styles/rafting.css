@@ -1,11 +1,4 @@
-*{
-    margin:0px 5px;
-    padding: auto;
-}
 
-:root{
-    color-scheme: 022B3A;
-}
 
 /*Start nav*/
 
@@ -17,51 +10,156 @@ nav a {
 /*End of nav*/
 
 /*Start header*/
-header img {
-    width: 150px;
-    height: 150px;
+header{
+    width: 1200px;
+    height:100px;
+    margin: 0 60px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background: linear-gradient(blue, aqua, green);
 }
+
+header img {
+    width: 80px;
+    height: 80px;
+    margin:10px 250px;
+}
+
+.navigation {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navigation li {
+	flex: 1 1 auto;
+    
+}
+
+.navigation a {
+	display: block;
+	color: rgb(0, 0, 0);
+	padding: 20px;
+	text-decoration: none;
+	font-size: 1.4rem;
+    border-color: black;
+
+}
+
+.navigation a:hover {
+	color: rgb(194, 29, 29);
+	font-weight: 700;
+	text-decoration: none;
+}
+
 /*End of header*/
 
+/* Start div*/
 .hero{
     position: relative;
-    width: 100%;
-    height:auto;
+    width: 1200px;
+    height:400px;
+    margin:10px 60px;
+    background-color: rgb(230, 199, 188);
 }
-.hero img{
-    display: block;
-    width: 100%;
-    height: auto;
-}
+
 
 h1{
     width: 100%;
     height: 80px;
-    background-color: rgb(99, 97, 92, .8);
     position: absolute;
-    color: chartreuse;
-    margin: -600px 5px 0px 5px;
+    color: rgb(0, 0, 0);
+    margin: 20px 0px 0px 0px;
     text-align: center;
 }
 
 
-.hero article img{
-    position: absolute;
-    width: 200px;
-    height: auto;
-    margin: 32px 25px 25px 870px;
-}
-
 .hero article{
+    width: 80%;
     height: 200px;
-    background-color: rgba(92, 209, 190, 0.8);
     position: absolute;
-    margin:-500px 90px 0 100px;
-    padding: 0 50px 0 50px;
-    text-align: justify;
+    margin:100px 0px 50px 100px;
 }
 
-p{
-    margin: 0px 250px 0px 0px;
+
+ .hero article img{
+    float:right;
+    margin:0px 50px 50px 0;
+ }
+
+.hero article p{
+    margin:40px 50px 50px 10px;
 }
 
+/* End of div*/
+
+
+/* start first section*/
+
+.medium{
+    display: flex;
+    width: 1200px;
+    height:400px;
+    margin:0px 60px;
+    background: rgb(224, 218, 218);
+}
+
+.medium h2{
+    margin: 150px 50px 150px 50px;
+    }
+
+.medium p{
+margin: 150px 50px 150px 50px;
+}
+/* End of first section*/
+
+/*Start of Second section*/
+
+.second{
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin:10px 60px;
+    background-color: antiquewhite;
+    
+
+}
+.second h2{
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    margin: 75px 0 0 275px;
+    
+}
+
+.second p{
+    width: 80px;
+    height: 30px;
+    margin:200px 50px 200px 10px;
+    
+}
+
+
+/*End of Second section*/
+
+/*Start of Footer*/
+
+footer{
+    width: 1200px;
+    height: 100px;
+    margin: 10px 60px;
+    display: flex;
+    background-color: rgb(231, 221, 221);
+}
+
+footer p{
+    margin:35px 250px 10px 400px;
+}
+
+footer a{
+    margin:25px 10px 25px 0
+}
