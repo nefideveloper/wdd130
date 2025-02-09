@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    background-color: chocolate;
+}
+
+header {
+    margin: 0;
+    width: 650;
+}
+
+h1 {
+margin: 1rem;
+font-size: 1.5em;
+color: navy;
+text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display:grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
