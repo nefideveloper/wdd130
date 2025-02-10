@@ -146,6 +146,145 @@ margin: 150px 50px 150px 50px;
 
 /*End of Second section*/
 
+/* Star info section*/
+.info{
+    display: flex;
+    width: 1200px;
+    height:200px;
+    margin:0px 60px;
+    background: rgb(224, 218, 218);
+}
+
+.info h1{
+    margin: 0 0;
+    text-align: left;
+    }
+
+.info p{
+margin: 50px 0 0 0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#map {
+    display: block;
+    float: right;
+    margin: 0 0 0 300px;
+    padding: 15px;
+}
+
+.employees {
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin:10px 60px;
+    background-color: antiquewhite;
+    
+
+}
+.employees h2{
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    margin:0px 0 0 275px;
+    
+}
+
+.employees p{
+    width: 80px;
+    height: 30px;
+    margin:40px 50px 200px 10px;
+    
+}
+
+
+/*End info section*/
+
+/*Form Section*/
+
+
+form {
+    width: 650px;
+    margin: 10px 60px;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display:grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+label{
+    text-align:left;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"]{
+width: 22px;
+height: 22px;
+vertical-align: bottom;
+
+
+}
+
+button {
+    margin: 0;
+    background-color: rgb(55, 55, 211);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+
+.form-item {
+    display:grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin:0 0 0 10px;
+    
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+
+/*End Form Section*/
+
+
 /*Start of Footer*/
 
 footer{
